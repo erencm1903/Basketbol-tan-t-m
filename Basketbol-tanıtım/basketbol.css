@@ -1,0 +1,67 @@
+body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+    header {
+      background: #ff6f00;
+      padding: 1rem;
+      text-align: center;
+      font-size: 2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: #333;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    main {
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+      background: rgba(255,255,255,0.1);
+      padding: 1.5rem;
+      border-radius: 10px;
+    }
+    .search-bar input {
+      padding: 0.5rem;
+      width: 200px;
+      border-radius: 5px;
+      border: none;
+    }
+    .search-bar button {
+      padding: 0.5rem 1rem;
+      margin-left: 10px;
+      border: none;
+      border-radius: 5px;
+      background: #ff6f00;
+      color: white;
+      cursor: pointer;
+    }
+    .result-card {
+      margin-top: 1rem;
+      background: rgba(255,255,255,0.2);
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #111;
+      margin-top: 2rem;
+    }
+    img {
+  width: 300px;      
+  height: 200px;        
+  object-fit: contain;  
+  background-color: #f0f0f0; 
+  display: block;
+  margin: 0 auto;
+}

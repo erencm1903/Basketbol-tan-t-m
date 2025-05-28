@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basketbol Tanıtım Sitesi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="basketbol.css">
+  li
+</head>
+<body>
+  <header>🏀 Basketbol Dünyası</header>
+  <nav>
+    <a href="#tarih">Tarihçe</a>
+    <a href="#kurallar">Kurallar</a>
+    <a href="#turnuvalar">Turnuvalar</a>
+    <a href="#oyuncular">Oyuncular</a>
+    <a href="#arama">Arama</a>
+  </nav>
+  <main>
+     <section id="oyuncular">
+      <h2>Ünlü Oyuncular</h2>
+      <div class="galeri">
+        <div class="kart">
+          <img src="assets/Michael_Jordan_in_2014.jpg" alt="Michael Jordan" />
+          <p>Michael Jordan</p>
+        </div>
+        <div class="kart">
+          <img src="assets/LeBron_James_Lakers.jpg" alt="LeBron James" />
+          <p>LeBron James</p>
+        </div>
+        <div class="kart">
+          <img src="assets/indir (2).jpeg" alt="Luka Dončić" />
+          <p>Luka Dončić</p>
+          <div class="kart">
+          <img src="assets/Kobe_Bryant_7144_adjusted.jpg" alt= "Kobe Bryant" />
+          <p>Kobe Bryant</p>
+          <div class="kart">
+          <img src="assets/indir.jpeg" alt="Kevin Durant" />
+          <p>Kevin Durant</p>
+          <div class="kart">
+          <img src="assets/indir (1).jpeg" alt="Stephen Curry" />
+          <p>Stephen Curry</p>
+        </div>
+      </div>
+    </section>
+    </section>
+    <section id="tarih">
+      <h2>Basketbolun Tarihçesi</h2>
+      <p>Basketbol, 1891'de Dr. James Naismith tarafından icat edilmiştir. Spor, kısa sürede dünya çapında yayılmıştır ve NBA gibi büyük ligler sayesinde popülerliğini artırmıştır.</p>
+    </section>
+
+    <section id="kurallar">
+      <h2>Oyun Kuralları</h2>
+      <ul>
+        <li>Her takım 5 oyuncu ile oynar.</li>
+        <li>Maçlar 4 periyottan oluşur (her biri 12 dakika).</li>
+        <li>3 sayılık, 2 sayılık ve serbest atışlarla skor yapılır.</li>
+      </ul>
+    </section>
+
+    <section id="turnuvalar">
+      <h2>Önemli Turnuvalar</h2>
+      <ul>
+        <li>NBA (Amerika)</li>
+        <li>EuroLeague (Avrupa)</li>
+        <li>FIBA Dünya Kupası</li>
+        <li>Olimpiyat Oyunları</li>
+      </ul>
+    </section>
+
+    <section id="arama">
+      <h2>Oyuncu / Takım Arama</h2>
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Oyuncu veya Takım Adı" />
+        <button onclick="searchData()">Ara</button>
+      </div>
+      <div id="result" class="result-card"></div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Basketbol Tanıtım Sitesi
+  </footer>
+  
+  <script src="basketbol.js"></script>
+</body>
+</html>
